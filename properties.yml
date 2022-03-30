@@ -21,9 +21,9 @@ spring:
           predicates: 
             - Path=/payment/**
             
-  microservice:
-    endpoints:
-      order:
-        uri: http://ORDER-SERVICE/order/placeorder
-      payment:
-        uri: http://PAYMENT-SERVICE/payment/makepayment
+microservice:
+  endpoints:
+    order:
+      uri: http://ORDER-SERVICE/order/placeorder
+    payment:
+      uri: http://PAYMENT-SERVICE/payment/makepayment
